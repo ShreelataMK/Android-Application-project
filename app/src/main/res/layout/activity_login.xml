@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="#508C0A"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="USER LOGIN"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="20sp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:text="Email-Id" />
+
+    <EditText
+        android:id="@+id/editTextUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_margin="20sp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:text="Password" />
+
+    <Button
+        android:id="@+id/buttonUser"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Click register link here"
+        android:textAllCaps="false"
+        android:textColor="#04146E"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
